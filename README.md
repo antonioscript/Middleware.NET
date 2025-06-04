@@ -55,6 +55,11 @@ app.Run(async (context) =>
 
 -----
 
+- Middleware executes in the order they are added in Program.cs.
+- ```app.Use()``` allows the request to continue down the pipeline and modifies responses on the way back.
+- ```app.Run()``` short-circuits the pipeline and prevents further middleware execution.
+- Order matters—placing authentication middleware before authorization middleware ensures users are authenticated before checking permissions.
+
 
 
 
@@ -78,6 +83,8 @@ app.Run( async context =>
 
 
 # References
+> **Highlight!**  https://codewithmukesh.com/blog/middlewares-in-aspnet-core/
+
 https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-8.0
 
-https://codewithmukesh.com/blog/middlewares-in-aspnet-core/
+
