@@ -1,6 +1,16 @@
 # Middleware.NET
 Middleware.NET This repository demonstrates how to create and use custom middleware components in ASP.NET Core
 
+## Summary
+
+- [Middleware.NET](#middlewarenet)
+- [Middleware](#middleware)
+- [Middleware order](#middleware-order)
+- [Example](#example)
+- [Examples Internal Middleare](#examples-internal-middleare)
+- [References](#references)
+
+
 
 # Middleware
 ASP.NET Core makes it easy to register middleware in the Program.cs file, where they are added to the pipeline using methods like 
