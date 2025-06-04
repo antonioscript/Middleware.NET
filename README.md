@@ -3,8 +3,15 @@ Middleware.NET This repository demonstrates how to create and use custom middlew
 
 ![image](https://github.com/user-attachments/assets/60c6a23a-da4d-4bb0-bff2-172afa5816fc)
 
+# Middleware order
 
-## Examples Middleare
+![image](https://github.com/user-attachments/assets/2a2ce8dd-4cff-46ce-8471-d9387987e340)
+
+----
+
+
+
+# Examples Internal Middleare
 
 ### Middleware Presetation Central (controls all requests)
 ``` csharp
@@ -25,3 +32,5 @@ app.Run( async context =>
 
 # References
 https://learn.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-8.0
+
+https://codewithmukesh.com/blog/middlewares-in-aspnet-core/
